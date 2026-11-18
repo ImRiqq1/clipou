@@ -1,0 +1,22 @@
+:root { --fundo: #0d0f10; --cartao: #16191b; --linha: #262b2f; --texto: #eef2f4; --sub: #9aa4a9; --lima: #C6FF3D; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--fundo); color: var(--texto); font: 16px/1.65 Inter, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: var(--lima); }
+.topo { max-width: 860px; margin: 0 auto; padding: 28px 24px; display: flex; align-items: center; justify-content: space-between; }
+.marca { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--texto); font-family: Unbounded, Inter, sans-serif; font-weight: 900; font-size: 22px; letter-spacing: -0.05em; }
+.marca svg { width: 40px; height: 40px; border-radius: 12px; }
+.marca span { color: var(--lima); }
+nav { display: flex; gap: 18px; font-size: 14px; }
+nav a { color: var(--sub); text-decoration: none; }
+nav a:hover { color: var(--texto); }
+main { max-width: 860px; margin: 0 auto; padding: 24px 24px 96px; }
+h1 { font-family: Unbounded, Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 6vw, 56px); letter-spacing: -0.045em; line-height: 1.05; margin: 32px 0 18px; }
+h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 10px; }
+p, li { color: #c9d1d6; }
+ul { padding-left: 22px; margin: 8px 0; }
+li { margin: 6px 0; }
+.data { color: var(--sub); font-size: 14px; }
+.cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 24px; padding: 24px 26px; margin-top: 28px; }
+.rodape { border-top: 1px solid var(--linha); max-width: 860px; margin: 0 auto; padding: 28px 24px 48px; color: var(--sub); font-size: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
+.rodape a { color: var(--sub); }
+.marca b { font-weight: 900; }
